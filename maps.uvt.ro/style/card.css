@@ -4,7 +4,7 @@
  .property-card
  {
 
-   height:18em;
+   height:20em;
    width:20em;
    top: 0;
    display:-webkit-box;
@@ -55,7 +55,7 @@
  }
  
  
- /* Property Cards Hover States */
+ /* Property Cards Hover States 
  
  .property-card:hover .property-description
  {
@@ -67,8 +67,16 @@
    height:18em;
  }
 
- video {
-  z-index: 0;
-  height: auto;
-  width: 100%;
- }
+ */
+
+
+
+.containerVideo {
+  height: 200px;
+}
+
+#topText {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
