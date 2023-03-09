@@ -184,6 +184,11 @@
       align-items: center;
       padding: 50px;
     }
+
+    .info-header {
+      display: none !important;
+      visibility: hidden;
+    }
     
     /* MOBILE HEADINGS */
     
