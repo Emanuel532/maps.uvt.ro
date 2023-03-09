@@ -186,7 +186,7 @@
     }
 
     .info-header {
-      display: none !important;
+      display: none ;
       visibility: hidden;
     }
     
