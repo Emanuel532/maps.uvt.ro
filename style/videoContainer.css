@@ -30,6 +30,19 @@ a {
 
 @media only screen and (max-width: 1050px) { 
 
-   
+    .video-image {
+        position: absolute;
+        width: 75%;
+        left: 15%;
+        top: 40%;
+        transform: translateY(-45%);
+        display: none;
+    }
+
+    .video-button {
+        position: absolute;
+        bottom: 45%;
+        left: 40%;
+    }
 
 }
