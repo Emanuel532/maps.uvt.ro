@@ -5,10 +5,7 @@
 
 .containerVideoPrezentare {
     position: relative;
-}
-
-.containerVideoPrezentare video {
-    
+    z-index: 0;
 }
 
 .video-button {
@@ -28,4 +25,11 @@
 
 a {
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1050px) { 
+
+   
+
 }
