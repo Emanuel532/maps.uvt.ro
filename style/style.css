@@ -1,8 +1,12 @@
+@font-face {
+  font-family: "NavFontUVT";
+  src: url("/fonts/SourceSansPro-Regular.ttf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: "NavFontUVT";
   }
   
   /* HEADINGS */
@@ -26,12 +30,6 @@
   }
   
   /* BASIC SETUP */
-  
-
-  @font-face {
-    font-family: 'FontNav';
-    src: url(Segoe\ UI.ttf);
-  }
 
   .page-wrapper {
     width: 100%;
@@ -52,7 +50,7 @@
   /* NAVIGATION */
   
   .navbar {
-    font-family: 'FontNav';
+    font-family: "NavFontUVT" !important;
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
@@ -61,6 +59,8 @@
     box-shadow: 0px 10px 10px 0px rgba(186, 181, 181, 0.127);
     overflow: hidden;
   }
+
+ 
   
   .navbar img {
     height: 45px;
@@ -70,9 +70,11 @@
   }
   
   .navbar ul {
+    font-family: "NavFontUVT";
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    text-align: center;
+    grid-template-columns: repeat(6,1fr);
     justify-self: center;
     margin-left: 50px;
     
@@ -80,10 +82,10 @@
   
   .nav-item a {
     color: #4BA3D7;
-    font-size: 1.3rem;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
-    font-family: 'FontNav';
+    font-family: "NavFontUVT";
     transition: color 0.3s ease-out;
   }
   
@@ -205,7 +207,7 @@
 
     .navbar ul {
       margin-left: 0;
-      margin-top: 30px;
+      margin-top: 10px;
       display: flex;
       flex-direction: column;
       position: fixed;
@@ -218,7 +220,8 @@
       text-align: center;
       overflow: hidden;
     }
-    
+
+
     .navbar li {
       padding: 15px;
     }

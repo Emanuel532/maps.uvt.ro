@@ -1,7 +1,7 @@
 .info-header {
     background-color: #014C5E;
     padding: 15px 45px 15px 45px;
-    font-size: 12px;
+    font-size: 14px;
 
     display: flex;
     justify-content: space-between;
@@ -12,6 +12,12 @@
     color: white;
     padding: 5px;;
 }
+
+.info-header a i:hover {
+    color: #2db7e9 !important;
+}
+
+
 
 @media only screen and (max-width: 1050px) { 
     .info-header {
