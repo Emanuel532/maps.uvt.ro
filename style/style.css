@@ -96,8 +96,8 @@
   /* SECTIONS */
   
 .descriere p {
-  margin-left: 11.5vw;
-  margin-right: 11.5vw;
+  margin-left: 10.5vw;
+  margin-right: 10.5vw;
 }
 
   .descriere {
@@ -201,11 +201,16 @@
       padding: 50px;
     }
 
+
+    .descriereFacultate {
+      font-size: 1em !important;
+    }
+
     
     /* MOBILE HEADINGS */
     
     h1 {
-      font-size: 1.9rem;
+      font-size: 1.9rem !important;
     }
     
     h2 {
