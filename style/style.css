@@ -95,6 +95,11 @@
   
   /* SECTIONS */
   
+.descriere p {
+  margin-left: 11.5vw;
+  margin-right: 11.5vw;
+}
+
   .descriere {
     width: 100%;
     height: 50vh;
@@ -104,6 +109,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .descriere .descriereFacultate {
+    font-size: 1.5vw;
+  }
+
+  .descriere h1 {
+    font-size: 2.5vw;
   }
   
   .features {
