@@ -52,7 +52,7 @@
   .navbar {
     font-family: "NavFontUVT" !important;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 7fr;
     align-items: center;
     justify-content: center;
     height: 100px;
@@ -74,9 +74,10 @@
     list-style: none;
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(6,1fr);
-    justify-self: center;
+    grid-template-columns: repeat(7,1fr);
+    justify-self: start;
     margin-left: 50px;
+    letter-spacing: 0.05vw;
     
   }
   

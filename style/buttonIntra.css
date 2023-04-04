@@ -3,7 +3,7 @@
 .button-5 {
   align-items: center;
   background-clip: padding-box;
-  background-color: #014C5E;
+  background-color: #2E71B8;
   border: 1px solid transparent;
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -12,7 +12,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 2vw;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
@@ -31,7 +31,7 @@
 
 .button-5:hover,
 .button-5:focus {
-  background-color: #014C5E;
+  background-color: #0B4F7C;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
